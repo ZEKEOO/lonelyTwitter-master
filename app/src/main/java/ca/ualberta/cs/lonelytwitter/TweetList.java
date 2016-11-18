@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 /**
- * Created by TongTong on 29/09/2016.
+ * Created by ZEKE_XU on 29/09/2016.
  */
 public class TweetList {
     private ArrayList<Tweet> tweets = new ArrayList<Tweet>();
@@ -13,9 +13,6 @@ public class TweetList {
     /**
      * Instantiates a new Tweet list.
      */
-    public TweetList() {
-
-    }
 
     public Tweet getTweet(int index) {
         return tweets.get(index);
